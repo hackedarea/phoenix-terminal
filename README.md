@@ -20,6 +20,7 @@ It mimics the behavior of common UNIX shells like **bash** or **zsh**, while rev
 - Command parsing (supports multiple args, flags, and quoted strings)
 - Error handling for unknown commands
 - Built-in environment variable usage (`$PATH`, `$HOME`, etc.)
+- Implemented shell variables (`x=5`, `$x`)
 
 ---
 
@@ -91,10 +92,7 @@ Phoenix Shell is built as a deep-dive project to:
 - [ ] Add more built-in commands like `systemctl`, `iwconfig`, etc.
 - [ ] Implement piped commands (`cat file | grep text`)
 - [ ] Some more advanced commands (`cat>file_name`)
-- [ ] Add command history navigation
-- [ ] Introduce shell variables (`x=5`, `$x`)
 - [ ] Support asynchronous execution (`&`)
-- [ ] Store user command history persistently
 
 ---
 
